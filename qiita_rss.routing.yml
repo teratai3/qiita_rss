@@ -1,0 +1,7 @@
+qiita_rss.config:
+  path: '/admin/config/qiita_rss'
+  defaults:
+    _form: 'Drupal\qiita_rss\Form\QiitaRssConfigForm'
+    _title: 'Qiita RSSの設定'
+  requirements:
+    _permission: 'administer site configuration'

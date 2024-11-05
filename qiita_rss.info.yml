@@ -1,0 +1,6 @@
+name: "qiita_rss"
+type: module
+description: "Qiitaのrssを取得して表示する"
+package: Custom
+core_version_requirement: ^10
+configure: qiita_rss.config # 設定リンク追加
